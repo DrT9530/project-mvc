@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'host' => getenv('DB_HOST') ?: 'localhost',
+    'host' => getenv('DB_HOST') ?: 'mvc_db',
     'port' => getenv('DB_PORT') ?: '3306',
     'dbname' => getenv('DB_NAME') ?: 'mvc_db',
     'username' => getenv('DB_USER') ?: 'root',
